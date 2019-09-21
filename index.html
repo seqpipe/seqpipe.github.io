@@ -1,1 +1,244 @@
-Comming Soon!
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Seqpipe</title>
+	<meta name="description" content="">
+	<meta name="author" content="Seqpipe Ltd">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+	<header>
+		<div class="container">
+		<nav>
+			<ul>
+				<li><a id="home-link" href="#home">Home</a></li>
+				<li><a id="projects-link" href="#projects">Projects</a></li>
+				<li><a id="contacts-link" href="#contacts">Contacts</a></li>
+			</ul>
+		</nav>
+		<div id="funnel"><img src="images/funnel.png" alt="" /></div>
+		<h1>Seqpipe</h1>
+		</div>
+	</header>
+
+	<div class="page" id="home">
+		<div class="container">
+			<div class="menu-item">Home</div>
+			<h2>Welcome!</h2>
+			<div class="content">
+                <p>
+                    Seqpipe Ltd provides <em>software consulting services</em>. 
+                    Our mission is to help life science practitioners dealing
+                    with large amounts of <em>next-generation sequencing</em> data
+                </p>
+                <p>
+                    We help bioinformaticians to productionize their newly developed 
+                    algorithms and pipelines and to turn them into <em>easy to use 
+                    and scalable</em> bioinformatics tools and applications.
+                </p>
+                <p>
+                    Seqpipe has a team of software engineers and 
+                    bioinformaticians who can apply software engineering
+                    best practices for development of bioinformatics software
+                </p>
+                <p>
+                    Seqpipe consult and implement <em>parallelization of bioinformatics 
+                    algorithms and pipelines</em> on top of various cluster management 
+                    systems and GPUs.
+                    We consult usage of <em>big data tools</em> 
+                    (Apache Hadoop, Apache Spark, Apache Impala, etc) 
+                    in development of bioinformatics applications and pipelines.
+                </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="page" id="projects">
+		<div class="container">
+			<div class="menu-item">Projects</div>
+			<h2>Showcasing our work</h2>
+			<div class="content" class="slider-pro">
+			
+				<div id="projects-slider" class="sp-slides">
+					<div class="project-item" class="sp-slide">
+                        <img src="images/projects/gpf_project.png" alt="GPF - Genotypes and Phenotypes in Families" />
+						<div class="desc">
+							<h3>
+                                GPF - Genotypes and Phenotypes in Families
+                            </h3>
+                            <strong>Overview</strong>
+                            <p>
+                                The Genotype and Phenotype in Families (GPF)
+                                system manages large databases of genetic 
+                                variants and phenotypic measurements 
+                                obtained from large collections of families
+                                and individual family members.
+                            </p>
+                            <!-- <p>
+                                The main application of the system has been
+                                in managing the data gathered from the
+                                Simons Simplex Collection, a collection 
+                                of ~3,000 families with one child diagnosed
+                                with autism
+                            </p>
+                            <p>
+                                Current development of the GPF system is 
+                                aimed at managing the data gathered from
+                                the SPARK (Simons Foundation Powering 
+                                Autism Research for Knowledge) collection 
+                                of ~50,000 individuals with autism and their
+                                family members     
+                            </p> -->
+                            <strong>Responsibilities</strong>
+                            <p>
+                                Software developemnt, maintenence,
+                                deployment and system administration
+                                of the system.
+                            </p>
+                            <strong>Tools & Technologies</strong>
+                            <p>
+                                Python, numpy, pandas, scipy, matplotlib,
+                                pyarrow, statsmodels,
+                                cyvcf2, pysam, samtools, 
+                                Django, Angular, Apache Hadoop, Apache Impala
+                            </p>
+                            <strong>More information</strong>
+                            <p><a href="https://github.com/iossifovlab/gpf">Github project page</a></p>
+                        </div>
+                        <div class="clear" ></div>
+					</div>
+					
+					<div class="project-item"  class="sp-slide">
+						<img src="images/projects/sgains_project.png" alt="s-GAINS" />
+						<div class="desc">
+							<h3>
+                                s-GAINS: Sparse Genomic Analysis of Individual Nuclei 
+                                by Sequencing
+                            </h3>
+							<strong>Overview</strong>
+                            <p>
+                                Integrates all steps of the single-cell CNV 
+                                profiling computational
+                                pipeline from aligning NGS reads to preparation 
+                                of the the data for visualization and analysis
+                                into a single tool.
+                            </p>
+                            <strong>Responsibilities</strong>
+                            <p>
+                                Software design, developemnt, maintenence,
+                                packaging and distribution of the tool.
+                            </p>
+                            <strong>Tools & Technologies</strong>
+                            <p>
+                                Python, numpy, pandas, scipy, pysam, biopython,
+                                bowtie, samtools
+                            </p>
+                            <strong>More information</strong>
+                            <p><a href="https://github.com/KrasnitzLab/sgains/">Github project page</a></p>
+                        </div>
+                        <div class="clear" ></div>                        
+					</div>
+
+					<div class="project-item" class="sp-slide">
+						<img src="images/projects/scclust_project.png" alt="SCclust" />
+						<div class="desc">
+							<h3>
+                                SCclust - Segmentation and Clustering of Single
+                                Cell Sequencing Copy Number Profiles
+                            </h3>
+							<strong>Overview</strong>
+                            <p>
+                                The SCclust package implements feature selection
+                                based on breakpoints, permutations for FDRs 
+                                for Fisher test p-values and identification of
+                                the clone structure in single cell copy number
+                                profiles.
+                            </p>
+                            <strong>Responsibilities</strong>
+                            <ul>
+                                <li>
+                                    Software design, developemnt, maintenence,
+                                    packaging and distribution of the tool.
+                                </li>
+                            </ul>
+                            <strong>Tools & Technologies</strong>
+                            <p>
+                                R, Bioconductor DNAcopy.
+                            </p>
+                            <strong>More information</strong>
+                            <p><a href="https://github.com/KrasnitzLab/SCclust">Github project page</a></p>
+						</div>
+                        <div class="clear" ></div>
+					</div>
+
+					<div class="project-item" class="sp-slide">
+						<img src="images/projects/scgv_project.png" alt="SCGV" />
+						<div class="desc">
+							<h3>
+                                SCGV - Single Cell Genome Viewer
+                            </h3>
+							<strong>Overview</strong>
+                            <p>
+                                SCGV is an interactive graphical tool for
+                                single-cell genomics data, with emphasis 
+                                on single-cell genomics of cancer. 
+                                It facilitates examination, jointly or 
+                                individually, of DNA copy number profiles 
+                                of cells harvested from multiple anatomic 
+                                locations (sectors)
+                            </p>
+                            <strong>Responsibilities</strong>
+                            <ul>
+                                <li>
+                                    Software design, developemnt, maintenence,
+                                    packaging and distribution of the tool.
+                                </li>
+                            </ul>
+                            <strong>Tools & Technologies</strong>
+                            <p>
+                                Python, numpy, pandas, matplotlib, PyQt
+                            </p>
+                            <strong>More information</strong>
+                            <p><a href="https://github.com/KrasnitzLab/SCGV">Github project page</a></p>
+                        </div>
+                        <div class="clear" ></div>
+					</div>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="page" id="contacts">
+		<div class="container">
+			<div class="menu-item">Contacts</div>
+			<h2>Get in touch:</h2>
+			<div class="content">
+						
+				<div id="contact-info">
+					<h3>We'd love to get a note from you!</h3>
+				
+					<div id="contact-channels">
+						<h4>E-mail</h4>
+						<p>info [at] seqpipe [dot] com</p>
+						
+						<h4>Telephone</h4>
+						<p>00 359 889 725 503</p>
+
+					</div>
+				</div>
+			
+				<div class="clear"></div>	
+			</div>
+		</div>
+    </div>
+    
+</body>
+</html>
